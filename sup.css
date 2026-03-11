@@ -1,25 +1,22 @@
-body {
-  
+dy {
       margin: 0;
       padding: 0;
-      background-color: antiquewhite;
     }
     .container {
-      height: 750px;
+      height: 1150px;
       display: flex;
       width: 100%;
       gap: 10px;
     }
     .sidebar {
-      flex: 1;
+     flex: 1;
       border-width: 1px;
       border-style: solid;
       flex-direction: column;
       text-align: center;
       padding: 20px;
       gap: 20px;
-      background-color: burlywood;
-      height: 100vh;
+      background-color: #FF69B4;
     
     }
     .sidebar a{
@@ -31,9 +28,10 @@ body {
       padding:20px 20px;
     }
     .content {
-      flex: 3;
+        flex: 3;
       border: 2px solid black;
       padding: 20px 15px;
+      background-color: #FFDDE5;
     }
 
     .input-container {
@@ -51,10 +49,10 @@ body {
     h1, h2{
       text-align: center;
     }
-    .girls {
+    .button {
       display: flex;
       justify-content: space-between;
-      height: 50px;
+      height: 20px;
     }
     .cancel{
       background-color: pink;
@@ -62,20 +60,8 @@ body {
     .submit{
       background-color: pink;
     }
-    .circle{
-      background-color: azure;
-      width: 100px;
-      height: 100px;
-      /* margin-top: 20px; */
-      border-radius: 70px;
-      /* gap: 40px; */
+    .input-container input, select{
+        background-color: #FFF0F5;
+    }
     
-    }
-    .head{
-      display: flex;
-      padding: 40px;
-    }
-    .tree{
-      margin-left: 40px;
-    }
     

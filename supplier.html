@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="sup.css" />
+  </head>
+  <body>
+    <div class="container">
+          <div class="sidebar">
+            <div>
+          <a href="index.html">Dashboard</a>
+        </div>
+        <div>
+          <a href="Supplier.html">supplier</a>
+        </div>
+        <div>
+          <a href="Management">Management</a>
+        </div>
+        </div>
+        <div class="content">
+       <section>
+    <h1>SUPPLIER REGISTRATION FORM</h1>
+    <form>
+      <!--sec1-->
+        <h2>supplier infomation</h2>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="companyname">Company Name</label>
+                <input type="text" placeholder="Enter company name" required />
+              </div>
+              <div class="input-section">
+                <label for="contactpersonname">Contact Person Name</label>
+                <input type="text" placeholder="Enter Contact Person Name" />
+              </div>
+            </div>
+            <br /><br />
+            <div class="input-container">
+              <div class="input-section">
+                <label for="taxidentification"
+                  >Tax Identification Number (TIN)
+                </label>
+                <input type="text" required />
+              </div>
+              <div class="input-section">
+                <label for="typeof business">Type Of Business</label>
+                <select name="" id="">
+                  <option value="">Select type of business</option>
+                  <option value="1">Distributers</option>
+                  <option value="2">Company</option>
+                  <option value="3">Individual</option>
+                </select>
+              </div>
+            </div>
+              <br /><br />
+              <!--sec2-->
+              <section>
+                <h2>Contact Information</h2>
+                <div class="input-container">
+                  <div class="input-section">
+                    <label for="contact">Contact</label>
+                    <input
+                      type="text"
+                      placeholder="Enter your contact"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-section">
+                    <label for="email">Email Address</label>
+                    <input type="text" placeholder="Enter email" required />
+                  </div>
+                </div>
+              </section>
+              <!--sec3-->
+              <section>
+                <h2>Supplier details</h2>
+                <div class="input-container">
+                  <div class="input-section">
+                    <label for="productcategory"
+                      >Product Category supplier</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="Enter product category"
+                      required
+                    />
+                  </div>
+
+                  <div class="input-section">
+                    <label for="deliverlymethod">Delivery Method</label>
+                    <select name="" id="">
+                      <option value="">Select method</option>
+                      <option value="">Pickup</option>
+                      <option value="">Supplier Delivery</option>
+                    </select>
+                  </div>
+                </div>
+              </section>
+
+              <!--section4-->
+              <section>
+                <h2>Finacial and Credit Information</h2>
+                <div class="input-container">
+                  <div class="input-section">
+                    <label for="paymentmethod">Payment Method</label>
+                    <select name="paymentmethod" id="">
+                      <option value="2">select method</option>
+                      <option value="1">Cash</option>
+                      <option value="3">Mobile money</option>
+                      <option value="4">Bank</option>
+                    </select>
+                  </div>
+                  <div class="input-section">
+                    <label for="bankaccountnumber">Bank Account Number</label>
+                    <input type="textarea" value="Enter Account Number" />
+                  </div>
+                </div>
+                <br /><br />
+
+                <div class="input-container">
+                  <div class="input-section">
+                    <label for="">credit</label>
+                    <input type="text" placeholder="Enter credit" />
+                  </div>
+                  <div class="input-section">
+                    <label for="payment-terms">Payment Terms</label>
+                    <input type="text" placeholder="Enter payment deadline" />
+                  </div>
+                </div>
+              </section>
+              <!--section5-->
+              <section>
+                <h1>Additional Information</h1>
+                <div class="input-container">
+                    <div class="input-section">
+                        <label for="comment">Comment</label>
+                        <input type="text" placeholder="Write Comment">
+                    </div>
+                </div>
+              </section>
+              <br><br>
+              <!--button-->
+              <div class="button">
+                <button type="submit" class="submit">Submit</button>
+                <button type="reset" class="cancel">Cancel</button>
+              </div>
+
+
+
+
+
+
+        </div>
+      </section>
+    </form>
+  </body>
+</html>
