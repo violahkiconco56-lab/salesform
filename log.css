@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    background-color: #E8EFF1;
+}
+h1{
+    text-decoration: dashed;
+    text-align: center;
+}
+.tree{
+    text-align: center;
+}
+.input-section {
+    display: grid;
+    justify-content: space-around;
+}
+input{
+    height: 40px;
+    width: 250px;
+}
+.but{
+    background-color: #F26A21;
+    color: white;
+    border: none;
+    padding: 20px 15px;
+    font-size: large;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: #d95b1c;
+}
